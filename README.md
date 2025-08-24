@@ -41,7 +41,7 @@ flowchart TD
 
 ### 1) Clone Repository
 ```bash
-git clone https://github.com/your-repo/api-help-chatbot.git
+git clone https://github.com/anuradha2504/API-Help-chatbot-N8N
 cd api-help-chatbot
 ```
 
@@ -98,4 +98,4 @@ Send a message to your **Telegram bot**, and it will reply with API help answers
 - Admin dashboard for monitoring and document updates
 
 ## 👨‍💻 Author
-Built by **Your Name** using automation, AI, and messaging.
+Built by Anuradha Kumari using automation, AI, and messaging.
