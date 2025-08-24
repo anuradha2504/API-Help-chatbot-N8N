@@ -6,7 +6,8 @@ An intelligent chatbot designed to provide API help documentation instantly. Thi
 
 🚀 Features
 
-📂 Fetches API help files stored in Google Drive 
+📂 Fetches API help files stored in Google Drive
+
 🔍 Converts documents into embeddings using OpenAI
 📊 Stores and searches embeddings efficiently with Pinecone Vector DB
 🤖 Uses OpenAI Chat Model to generate natural language answers
