@@ -6,6 +6,7 @@ An intelligent chatbot designed to provide API help documentation instantly. Thi
 penAI, and Telegram using an n8n automation pipeline.
 
 🚀 Features
+
 📂 Fetches API help files stored in Google Drive
 🔍 Converts documents into embeddings using OpenAI
 
