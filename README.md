@@ -18,7 +18,13 @@ An intelligent chatbot designed to provide API help documentation instantly. Thi
 
 n8n : Workflow automation for orchestrating tasks OpenAI : Embeddings & chat-based responses Pinecone : Vector database for semantic search Telegram Bot API : Messaging and triggers Google Drive API: Document storage and retrieval
 
-Architecture Flow 🔹 Workflow Diagram (Mermaid) flowchart TD A[📂 Google Drive API] -->|Fetch Help Docs| Store API help documentation (PDF, DOCX, TXT, etc.) B[n8n Workflow] B -->|Convert to Embeddings| C[🔎 OpenAI Embeddings] C -->|Store & Search| D[📊 Pinecone Vector DB] D -->|Retrieve Relevant Context| E[🤖 OpenAI Chat Model] E -->|Answer Generated| F[💬 Telegram Bot]
+Architecture Flow 🔹 Workflow Diagram (Mermaid) 
+flowchart TD 
+A[📂 Google Drive API] -->|Fetch Help Docs| Store API help documentation (PDF, DOCX, TXT, etc.) 
+B[n8n Workflow] B -->|Convert to Embeddings| 
+C[🔎 OpenAI Embeddings] C -->|Store & Search| 
+D[📊 Pinecone Vector DB] D -->|Retrieve Relevant Context| 
+E[🤖 OpenAI Chat Model] E -->|Answer Generated| F[💬 Telegram Bot]
 
 🔹 ASCII Flow [Google Drive Docs] --> [n8n Workflow] --> [OpenAI Embeddings] --> [Pinecone Vector DB] | v [OpenAI Chat Model] --> [Telegram Bot]
 
