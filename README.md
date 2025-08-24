@@ -7,10 +7,15 @@ penAI, and Telegram using an n8n automation pipeline.
 
 🚀 Features
 📂 Fetches API help files stored in Google Drive
+
 🔍 Converts documents into embeddings using OpenAI
+
 📊 Stores and searches embeddings efficiently with Pinecone Vector DB
+
 🤖 Uses OpenAI Chat Model to generate natural language answers
+
 🔗 Automated workflows managed via n8n
+
 💬 Seamless Telegram Bot integration for end-user interaction
 
 🛠️ Tech Stack
