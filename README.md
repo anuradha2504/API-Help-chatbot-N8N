@@ -43,7 +43,7 @@ flowchart TD
 
 📦 Setup Instructions
 1. Clone Repository
-git clone https://github.com/your-repo/api-help-chatbot.git
+git clone https://github.com/anuradha2504/api-help-chatbot.git
 cd api-help-chatbot
 
 2. Environment Variables
